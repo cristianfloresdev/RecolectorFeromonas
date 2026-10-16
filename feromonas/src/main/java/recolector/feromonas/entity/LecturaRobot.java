@@ -18,6 +18,9 @@ public class LecturaRobot
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "robot_id", nullable = false)
+    private String robotId;
+
     @Column(name = "lectura_gas", nullable = false)
     private float lecturaGas;
 
