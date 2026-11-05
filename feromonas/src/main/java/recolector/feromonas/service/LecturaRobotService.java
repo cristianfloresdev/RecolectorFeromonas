@@ -9,14 +9,14 @@ import recolector.feromonas.entity.LecturaRobot;
 import recolector.feromonas.enums.AccionesEnum;
 import recolector.feromonas.factory.FabricaBiomimetica;
 import recolector.feromonas.repository.AnalisisComportamientoRepository;
-import recolector.feromonas.repository.lecturaRobotRepository;
+import recolector.feromonas.repository.LecturaRobotRepository;
 
 @Service
 @RequiredArgsConstructor
 public class LecturaRobotService
 {
     //Traemos el repositorio y la fabrica
-    private final lecturaRobotRepository repository;
+    private final LecturaRobotRepository repository;
     private final AnalisisComportamientoRepository analisisRepository;
     private final FabricaBiomimetica fabrica;
 
